@@ -1,0 +1,19 @@
+{
+  "name": "Chrome FypURL",
+  "version": "1.0.0",
+  "description": "Use FypURL right through your Chrome",    
+  "icons" : { 
+    "48" : "img/fyp_icon_48.png", 
+    "128" : "img/fyp_icon_128.png"         
+  },
+  
+  "options_page": "options.html", 
+  
+  "browser_action": {
+	"default_title": "Chrome FypURL",
+    "default_icon": "img/fyp_icon.png",
+    "popup": "popup.html"
+  },
+
+  "permissions": [ "tabs" ]  
+}

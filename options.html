@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/fypurl.css" media="all">
+    <link rel="stylesheet" href="css/fypurl.css" media="all"/>
+    <script type="text/javascript" src="js/prototype.js"></script>
+	<script type="text/javascript" src="js/fypurl.js"></script>
+  <body onload="restore_options();">    
+    <h1>Configure Chrome FypURL</h1>
+    <div id="content">
+      <form>
+        <div>
+          <label for="friends">Who are your friends? </label>
+          <span class="hint">One login per line, blanks will be ignored</span>
+          <textarea id="friends" name="friends" rows="10"></textarea>   
+        </div>
+        <div>
+          <input type="submit" value="Save" onclick="save_options(); return false;"/>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
