@@ -3,8 +3,8 @@
 A very simple Chrome extension that allows the use of http://fypurl.com directly
 in the browser. This extension provides a browser button with 
 
- * Fyp Express and UnFyp express bookmarklets direct access
- * Links to your friends Fyps (customized through the extension options page)
+* Fyp Express and UnFyp express bookmarklets direct access
+* Links to your friends Fyps (customized through the extension options page)
 
 == Installation
 
