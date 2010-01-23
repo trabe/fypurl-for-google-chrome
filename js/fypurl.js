@@ -16,7 +16,7 @@ function render_friends() {
 
 	friends.each(function(friend) {
 		var li = new Element("li");
-		var a = new Element("a", { "href" : friend, "rel" : friend }).update(friend);
+		var a = new Element("a", { "href" : "#", "rel" : friend }).update(friend);
 		a.observe("click", go_to_fyp.bindAsEventListener(a));
 		li.appendChild(a);
 		$('friend_fyps').appendChild(li);
@@ -25,7 +25,7 @@ function render_friends() {
  
 function go_to_fyp(event) {
    event.stop();
-   chrome.tabs.create({url: "http://fypurl.com/" + this.href });
+   chrome.tabs.create({url: "http://fypurl.com/" + this.rel });
 }
  
 function fyp() {
