@@ -1,19 +1,20 @@
 {
-  "name": "Chrome FypURL",
-  "version": "1.0.1",
-  "description": "Use FypURL right through your Chrome",    
-  "icons" : { 
-    "48" : "img/fyp_icon_48.png", 
-    "128" : "img/fyp_icon_128.png"         
+  "name": "FypURL for Google Chrome™",
+  "version": "1.0.2",
+  "description": "Use FypURL right through your Google Chrome™ browser",
+  "icons" : {
+    "48" : "img/fyp_icon_48.png",
+    "128" : "img/fyp_icon_128.png"
   },
-  
-  "options_page": "options.html", 
-  
+
+  "options_page": "options.html",
+
   "browser_action": {
-	"default_title": "Chrome FypURL",
+	"default_title": "FypURL for Google Chrome™",
     "default_icon": "img/fyp_icon.png",
     "popup": "popup.html"
   },
 
-  "permissions": [ "tabs" ]  
+  "permissions": [ "tabs" ]
 }
+
